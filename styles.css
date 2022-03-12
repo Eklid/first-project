@@ -48,7 +48,6 @@ body {
 
   /* background-color: cadetblue; */
   width: 100vw;
-  height: 8vh;
   padding: 2% 5%;
 }
 
@@ -127,4 +126,22 @@ img {
 .review-link {
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 800px) {
+  #main-area,
+  #main-container,
+  #nav-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .links-container {
+    height: 5vh;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .title {
+    font-size: 2rem;
+  }
 }
